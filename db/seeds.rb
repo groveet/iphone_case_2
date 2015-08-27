@@ -6,8 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Category.create(name: "iPhone 6  plus")
+Category.create(name: "iPhone 6 plus")
 Category.create(name: "iPhone 6")
 Category.create(name: "iPhone 5/5s")
-Category.create(name: "iPhone 5c ")
-
+Category.create(name: "iPhone 5c")
