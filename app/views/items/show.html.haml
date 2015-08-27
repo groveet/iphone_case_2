@@ -1,0 +1,8 @@
+%h1= @item.title
+%p= @item.description
+%p= @item.price
+= image_tag @item.image.url(:medium)
+
+= link_to "На главную", root_path
+= link_to "Редактировать", edit_item_path
+= link_to "Удалить", item_path, method: :delete, data: {confirm: "Удалить товар?"} 

@@ -1,0 +1,18 @@
+.main
+  .row
+    %h1.main_text Аксессуары для Apple
+
+
+.container
+  %li= link_to 'iPhone 6 plus', items_path(category: "iPhone 6 plus"), class: 'list-group-item'
+  %li= link_to 'iPhone 6', items_path(category: "iPhone 6"), class: 'list-group-item'
+  %li= link_to 'iPhone 5/5s', items_path(category: "iPhone 5/5s"), class: 'list-group-item'
+  %li= link_to 'iPhone 5c', items_path(category: "iPhone 5c"), class: 'list-group-item'
+
+
+%h1 home page
+= link_to "дальше", items_path, class: 'btn btn-default'
+
+= link_to 'Создать новый ', new_item_path , class: "btn btn-default"
+
+  

@@ -12,6 +12,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'sqlite3', group: :development
 gem 'pg', '0.18.1', group: :production
+gem 'rails_12factor', group: :production
+
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'sass-rails', '>= 3.2'
 gem 'paperclip', '~> 4.3.0'

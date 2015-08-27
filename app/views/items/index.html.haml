@@ -1,0 +1,5 @@
+- @items.each do |item|
+  %h1= link_to item.title, item
+  = image_tag item.image.url(:thumb)
+
+= link_to "На главную", root_path, class: 'btn btn-default'
