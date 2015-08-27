@@ -1,13 +1,84 @@
 // Place all the styles related to the Items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+img{
+	width: 270px;
+}
 
+.navbar{
+	background-color: rgba(61,67,81, .5);
+}
+.navbar a{
+	color: white;
+}
 .main{
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	background: url('https://farm1.staticflickr.com/731/20651083456_d93004801d_o.jpg');
+	margin-top: -100px;
 }
 .main_text{
+	color: white;
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 275px;
 }
+
+.content1{
+	padding-top: 100px;
+	width: 100%;
+	height: 700px;
+	background-color: #F5F5F5;
+}
+.content2{
+	padding-top: 100px;
+	width: 100%;
+	height: 700px;
+	background-color: #F0F8FF;
+}
+.content3{
+	padding-top: 100px;
+	width: 100%;
+	height: 700px;
+	background-color: #F0FFF0;
+}
+.content4{
+	padding-top: 100px;
+	width: 100%;
+	height: 700px;
+	background-color: #F5F5DC;
+}
+.content5{
+	text-align: center;
+	padding-top: 300px;
+	width: 100%;
+	height: 700px;
+	background-color: black;
+	color: red;
+}
+.info_box{
+	margin-top: 100px;
+}
+
+
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: #3d4351;
+}
+
+
+
+/* ==========================================================================
+Waypoinsts
+========================================================================== */
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp10, .wp11, .wp12, .wp13 {
+  visibility: hidden
+}
+.wp2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s
+}
+.flipInX, .flipInY, .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown {
+  visibility: visible
+}
+

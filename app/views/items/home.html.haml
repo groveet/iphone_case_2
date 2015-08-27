@@ -1,6 +1,47 @@
 .main
   .row
     %h1.main_text Аксессуары для Apple
+.content1
+  .row
+    .col-md-4.col-md-offset-2.wp1
+      = image_tag 'iphone6pb.png'
+    .col-md-4.info_box.wp10
+      %h1= link_to 'iPhone 6 plus', items_path(category: "iPhone 6 plus")
+      %p Cold-pressed lumbersexual crucifix, typewriter Marfa gluten-free wolf selvage tousled squid. Kitsch aesthetic fashion axe disrupt. 8-bit hella farm-to-table Schlitz leggings, retro +1 scenester PBR&B try-hard food truck semiotics XOXO Vice
+      = link_to 'Смотреть..', items_path(category: "iPhone 6 plus")
+.content2
+  .row
+    .col-md-4.col-md-offset-2.info_box.wp11
+      %h1= link_to 'iPhone 6', items_path(category: "iPhone 6")
+      %p Wes Anderson fashion axe chia mustache post-ironic DIY. Tumblr aesthetic swag jean shorts, Brooklyn crucifix polaroid occupy mlkshk meh. 8-bit jean shorts Helvetica
+      = link_to 'Смотреть..', items_path(category: "iPhone 6")
+    .col-md-4.col-md-offset-1.wp2
+      = image_tag 'iphone6w.png'
+.content3
+  .row
+    .col-md-4.col-md-offset-2.wp3
+      = image_tag 'iphone5s.png'
+    .col-md-4.info_box.wp12
+      %h1= link_to 'iPhone 5/5s', items_path(category: "iPhone 5/5s") 
+      %p Dreamcatcher you probably haven't heard of them Bushwick heirloom. Vinyl butcher church-key typewriter artisan American Apparel. Freegan vegan kogi Williamsburg cardigan Etsy
+      = link_to 'Смотреть..', items_path(category: "iPhone 5/5s") 
+.content4
+  .row
+    .col-md-4.col-md-offset-2.info_box.wp13
+      %h1= link_to 'iPhone 5c', items_path(category: "iPhone 5c")
+      %p Chillwave forage vegan +1 meh, squid viral aesthetic try-hard raw denim lo-fi Shoreditch. Blue Bottle occupy cliche, 90's brunch church-key wolf viral four loko fingerstache hashtag cred fap ennui. 
+      = link_to 'Смотреть..', items_path(category: "iPhone 5c")
+    .col-md-4.col-md-offset-1.wp4
+      = image_tag 'iphone5c.png'
+.content5
+  .row
+    %h1 to be continued..
+
+
+
+
+
+
 
 
 .container
@@ -15,4 +56,5 @@
 
 = link_to 'Создать новый ', new_item_path , class: "btn btn-default"
 
+.footer
   
