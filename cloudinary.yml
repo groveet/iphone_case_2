@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dbvvrn1pv
+  api_key: '816297811585451'
+  api_secret: zXl_6NpWPARCyJorRwJDS9yO33c
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dbvvrn1pv
+  api_key: '816297811585451'
+  api_secret: zXl_6NpWPARCyJorRwJDS9yO33c
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dbvvrn1pv
+  api_key: '816297811585451'
+  api_secret: zXl_6NpWPARCyJorRwJDS9yO33c
+  enhance_image_tag: true
+  static_image_support: false
