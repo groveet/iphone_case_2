@@ -1,5 +1,11 @@
 - @items.each do |item|
-  %h1= link_to item.title, item
-  = image_tag item.image.url(:thumb)
+  .container
+    .col-md-6
+      %h1= link_to item.title, item
+      %p= truncate(item.description, length: 50) 
+    .col-md-4
+      = image_tag item.image.url(:thumb)
+    
+    
 
 = link_to "На главную", root_path, class: 'btn btn-default'

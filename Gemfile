@@ -20,3 +20,10 @@ gem 'paperclip', '~> 4.3.0'
 gem 'devise', '~> 3.5.2'
 gem 'haml', '~> 4.0.7'
 gem 'simple_form', '~> 3.1.0'
+gem 'cloudinary'
+
+gem 'aws-s3', '~> 0.6.3'
+
+gem 'aws-sdk', '~> 1.36.1'
+gem 'fog'
+gem 'figaro', '~> 1.1.1'
