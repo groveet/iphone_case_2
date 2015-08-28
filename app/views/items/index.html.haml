@@ -1,10 +1,16 @@
 - @items.each do |item|
   .container
-    .col-md-6
-      %h1= link_to item.title, item
-      %p= truncate(item.description, length: 50) 
-    .col-md-4
-      = image_tag item.image.url(:thumb)
+    .items
+      .container
+        .col-md-6
+          %h1= link_to item.title, item
+          %p= truncate(item.description, length: 50) 
+          %p.price 
+            Цена:
+            = item.price
+        .col-md-4
+          = image_tag item.image.url(:thumb)
+
     
     
 
