@@ -3,9 +3,9 @@ Rails.application.configure do
   config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
-    :bucket => ENV['rails-app-production'],
-    :access_key_id => ENV['AKIAJC2GNBHAKG22XZLA'],
-    :secret_access_key => ENV['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']
+    :bucket => ENV['rails-iphone-case'],
+    :access_key_id => ENV['AKIAIZKFCNG5H4FVG5IA'],
+    :secret_access_key => ENV['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']
   }
 }
   # Settings specified here will take precedence over those in config/application.rb.
