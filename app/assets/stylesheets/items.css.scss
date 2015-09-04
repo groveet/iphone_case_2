@@ -1,10 +1,17 @@
 // Place all the styles related to the Items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	background-color: #F5F5F5;
+}
+
+
 .select img{
 	width: 270px;
 }
-
+a{
+	color: yellow;
+}
 .navbar{
 	background-color: rgba(61,67,81, .5);
 }
@@ -15,14 +22,42 @@
 	width: 100%;
 	height: 600px;
 	background: url('https://farm1.staticflickr.com/731/20651083456_d93004801d_o.jpg');
+	background-attachment: fixed;
 	margin-top: -100px;
 }
 .main_text{
 	color: white;
 	text-align: center;
-	margin-top: 275px;
+	margin-top: 255px;
+}
+.main2{
+	width: 100%;
+	height: 300px;
+}
+.main_pod_text{
+	margin-top: 20px;
+	color: gray;
+	text-align: center;
+
 }
 
+/*=================================
+MAIN
+=================================*/
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*=================================
+select
+=================================*/
 .content1{
 	padding-top: 100px;
 	width: 100%;
@@ -41,7 +76,9 @@
 	height: 700px;
 	background-color: #F0FFF0;
 }
-.content4{
+.content4{ 
+
+	font-family: 'Oswald', sans-serif;
 	padding-top: 100px;
 	width: 100%;
 	height: 700px;
@@ -60,33 +97,53 @@
 }
 
 
-.footer{
-	width: 100%;
-	height: 300px;
-	background-color: #3d4351;
-}
-
 
 
 
 /*============================================================================
 INDEX
 ==========================================================*/
-.items {
-	-webkit-box-shadow: 3px -4px 24px -6px rgba(0,0,0,0.74);
-	-moz-box-shadow: 3px -4px 24px -6px rgba(0,0,0,0.74);
-	box-shadow: 3px -4px 24px -6px rgba(0,0,0,0.74);
-	margin: 10px;
-	padding: 20px;
-	border-radius: 5px;
+.content
+
+.img_item img{
+	height: 250px;
+
 }
-.price{
-	width: 100px;
-	padding: 5px;
-	text-align: right;
-	border: 1px solid gray;
+.item{
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+	height: 450px;
 }
 
+/*===================================================
+SHOW
+==============================================*/
+
+
+.price{
+	border:1px solid red;
+	padding: 10px;
+}
+.price img{
+	height: 40px;
+}
+
+/*======================================================
+HOME
+==========================================*/
+
+.footer{
+	width: 100%;
+	height: 400px;
+	background: url('https://farm1.staticflickr.com/731/20651083456_d93004801d_o.jpg');
+	background-position: center top ;
+}
+.img{
+	background-color: rgba(61,67,81, .9);
+	width: 100%;
+	height: 400px;
+}
 /* ==========================================================================
 Waypoinsts
 ========================================================================== */

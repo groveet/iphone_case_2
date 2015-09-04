@@ -1,7 +1,19 @@
-%h1= @item.title
-%p= @item.description
-%p= @item.price
-= image_tag @item.image.url(:medium)
+.container
+  .row
+    .col-md-3.col-md-offset-1
+      %h1= @item.title
+      %p= @item.description
+      %h1.price
+        = @item.price
+        Руб
+        = image_tag 'Ruble_sign.svg.png'
+    .col-md-6
+      = image_tag @item.image.url(:medium)
+    
+
+
+
+
 
 = link_to "На главную", root_path
 = link_to "Редактировать", edit_item_path

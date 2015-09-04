@@ -1,17 +1,11 @@
-- @items.each do |item|
-  .container
-    .items
-      .container
-        .col-md-6
-          %h1= link_to item.title, item
-          %p= truncate(item.description, length: 50) 
-          %p.price 
-            Цена:
-            = item.price
-        .col-md-4
-          = image_tag item.image.url(:thumb)
+- @items.each_slice(2) do |items|
+  .row.content
+    .col-md-2.left_menu
+    - items.each do |item|
+      .col-md-4
+        .item
+          .img_item= image_tag item.image.url(:thumb)
+          %h1.texct= link_to item.title, item
+          %h1= item.price
 
-    
-    
-
-= link_to "На главную", root_path, class: 'btn btn-default'
+          
