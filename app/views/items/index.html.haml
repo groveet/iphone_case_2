@@ -1,11 +1,13 @@
-- @items.each_slice(2) do |items|
-  .row.content
-    .col-md-2.left_menu
-    - items.each do |item|
-      .col-md-4
-        .item
-          .img_item= image_tag item.image.url(:thumb)
-          %h1.texct= link_to item.title, item
-          %h1= item.price
-
-          
+.container
+  .row
+    .col-md-2.left-menu
+      %p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid est blanditiis eius, officiis inventore, culpa error, dignissimos reiciendis, adipisci omnis cumque quaerat aspernatur vitae molestiae.lorem100
+    .col-md-9.content
+      - @items.each_slice(2) do |items|
+        .row.content
+        - items.each do |item|
+          .col-md-5
+            .item
+              .img-item= link_to (image_tag item.image.url(:thumb)), item
+              %h4.texct= link_to item.title, item
+              %h4= item.price
